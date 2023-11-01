@@ -8,8 +8,142 @@
     <link rel="stylesheet" href="./assets/css/reset.css" />
     <!-- Style CSS -->
     <link rel="stylesheet" href="./assets/css/style.css" />
+    <!-- Embed Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Sora:wght@400;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Favicon -->
+    <link rel="apple-touch-icon" sizes="180x180" href="./assets/favicon" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/favicon/site.webmanifest" />
   </head>
-  <body>
-    test
+  <body style="height: 5000px">
+    <!-- Header -->
+    <header class="header header--sticky">
+      <div class="container">
+        <a href="#!"
+          ><img src="./assets/icons/Logo.svg" alt="" class="logo"
+        /></a>
+        <nav class="navbar">
+          <ul class="navbar__list">
+            <li class="navbar__item navbar__item--active">
+              <a href="#!">Home</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!">About</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!">Services & Rates</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!">Reviews</a>
+            </li>
+            <li class="navbar__item">
+              <a href="#!">Contacts us</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="header__action">
+          <a href="" class="header__sign-in">Sign in</a>
+          <a href="#!" class="header__sign-up btn">Sign up</a>
+        </div>
+      </div>
+    </header>
+
+    <!-- Hero -->
+    <section class="hero">
+      <div class="container">
+        <img src="./assets/imgs/Circle-Hero.svg" alt="" class="hero__circle" />
+        <img src="./assets/imgs/Deco-Hero.svg" alt="" class="hero__deco" />
+        <div class="hero__media">
+          <figure class="hero__img-wrap">
+            <img
+              src="./assets/imgs/Cat-Big-Hero.png"
+              alt=""
+              class="hero__img"
+            />
+          </figure>
+          <figure class="hero__img-wrap">
+            <img
+              src="./assets/imgs/Dog-Big-Hero.png"
+              alt=""
+              class="hero__img"
+            />
+          </figure>
+          <div class="hero-info">
+            <!-- Hero-Info-Row-1 -->
+            <div class="hero-info__row">
+              <img
+                src="./assets/imgs/Dog-SmallYL-Hero.png"
+                alt=""
+                class="hero-info__img"
+              />
+              <div class="hero-info__content">
+                <h3 class="hero-info__title">Pet Health</h3>
+                <div class="hero-info__text-long"></div>
+                <div class="hero-info__text-short"></div>
+              </div>
+            </div>
+
+            <!-- Hero-Info-Row-2 -->
+            <div class="hero-info__row">
+              <img
+                src="./assets/imgs/Dog-SmallBL-Hero.png"
+                alt=""
+                class="hero-info__img"
+              />
+              <div class="hero-info__content">
+                <h3 class="hero-info__title">Pet care</h3>
+                <div class="hero-info__text-long"></div>
+                <div class="hero-info__text-short"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <section class="hero__content">
+          <h1 class="hero__heading">Established & Trusted Pet Care Service</h1>
+          <p class="hero__desc">
+            Discover a wide variety of Pawsitive services to choose from,
+            including daycare, private walks, office duty and spa.
+          </p>
+          <div class="hero__action">
+            <a href="#!" class="hero__btn btn">
+              <span>Book a Meet</span>
+              <div class="hero__arrow">
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="5"
+                  height="6"
+                  viewBox="0 0 5 6"
+                  fill="none"
+                >
+                  <path
+                    d="M1.48584 0.5L3.98584 3L1.48584 5.5"
+                    stroke="#FD5056"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                  />
+                </svg>
+              </div>
+            </a>
+            <a href="#!" class="hero__link">Schedule a Call</a>
+          </div>
+        </section>
+      </div>
+    </section>
   </body>
 </html>
