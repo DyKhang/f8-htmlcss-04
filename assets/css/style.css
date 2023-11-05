@@ -699,7 +699,7 @@ a {
 }
 
 .services-item__cta {
-  display: flex;
+  display: inline-flex;
   align-items: center;
   gap: 6px;
   margin-top: 24px;
@@ -716,4 +716,402 @@ a {
 
 .services-item__cta:hover span {
   color: rgb(255, 91, 46);
+}
+
+/* Staff */
+.staff {
+  margin-top: 130px;
+}
+
+.staff__text {
+  color: #5e6085;
+  text-align: center;
+  font-family: Sora;
+  font-size: 1.6rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.staff__heading {
+  margin-top: 15px;
+  text-align: center;
+  color: #000958;
+  font-family: Sora;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 119.231%;
+}
+
+.staff__members {
+  margin-top: 59px;
+  display: flex;
+  gap: 35px;
+}
+
+.staff__member {
+  flex: 1;
+}
+
+.staff__img-wrap {
+  position: relative;
+  margin: 0 auto;
+  width: 234px;
+  height: 266px;
+  border-radius: 129.5px;
+}
+
+.staff__member:first-child .staff__img-wrap {
+  background-image: linear-gradient(180deg, #90ccff 0%, #59a8eb 95.96%);
+}
+
+.staff__member:nth-child(2) .staff__img-wrap {
+  background-image: linear-gradient(180deg, #ff997e 0%, #f3752e 100%);
+}
+
+.staff__member:nth-child(3) .staff__img-wrap {
+  background-image: linear-gradient(180deg, #fabf3e 0%, #ffa14a 100%);
+}
+
+.staff__member:last-child .staff__img-wrap {
+  background-image: linear-gradient(180deg, #5bd6e2 0%, #00a7cc 100%);
+}
+
+.staff__img {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  object-fit: cover;
+  border-radius: inherit;
+}
+
+.staff__job {
+  margin-top: 30px;
+  color: #656689;
+  text-align: center;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.staff__name {
+  margin-top: 14px;
+  color: #000958;
+  text-align: center;
+  font-family: Sora;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.staff__member:first-child .staff__img-deco {
+  position: absolute;
+  bottom: 0;
+  left: -16px;
+}
+
+.staff__member:nth-child(2) .staff__img-deco {
+  position: absolute;
+  top: 0;
+  left: -16px;
+}
+
+.staff__member:nth-child(3) .staff__img-deco {
+  position: absolute;
+  bottom: 0;
+  left: -16px;
+}
+
+.staff__member:last-child .staff__img-deco {
+  position: absolute;
+  top: 0;
+  left: -16px;
+}
+
+.staff__btn {
+  margin: 48px auto 0;
+  display: block;
+  text-align: center;
+  max-width: 193px;
+  line-height: 56px;
+  color: #ff5b2e;
+  font-size: 1.6rem;
+  font-weight: 500;
+  border-radius: 31px;
+  border: 1px solid #ff5b2e;
+  transition: background-color, color;
+  transition-duration: 0.4s;
+}
+
+.staff__btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 91, 46);
+}
+
+/* Pricing */
+.pricing {
+  padding: 86px 0 86px;
+  margin-top: 130px;
+  background-color: #fff6ed;
+}
+
+.pricing__heading {
+  color: #000958;
+  text-align: center;
+  font-family: Sora;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 119.231%;
+}
+
+.pricing__desc {
+  margin: 24px auto 0;
+  max-width: 709px;
+  color: #656689;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+
+.pricing__date {
+  position: relative;
+  display: inline-block;
+  margin-left: 50%;
+  margin-top: 38px;
+  translate: -50%;
+}
+
+.pricing__month {
+  padding-left: 40px;
+  color: #ff5b2e;
+  font-size: 1.6rem;
+  font-weight: 500;
+  width: 276px;
+  line-height: 56px;
+  border-radius: 31px;
+  border: 1px solid #ff5b2e;
+}
+
+.pricing__year {
+  position: absolute;
+  bottom: 1px;
+  right: 0;
+  min-width: 131px;
+  line-height: 56px;
+  border-radius: 31px;
+  background-color: #ff5b2e;
+  color: #fff;
+  text-align: center;
+  font-size: 1.6rem;
+  font-weight: 500;
+}
+
+.pricing__sale {
+  position: absolute;
+  bottom: 29.2px;
+  right: -113px;
+}
+
+.pricing__list {
+  margin-top: 56px;
+  display: flex;
+  justify-content: center;
+  gap: 44px;
+}
+
+.pricing-item {
+  max-width: 25.81%;
+  padding: 30px 28px 43px 28px;
+  flex: 1;
+  border-radius: 20px;
+  background-color: #fff;
+}
+
+.pricing-item__text {
+  color: #ff5b2e;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.pricing-item__heading {
+  margin-top: 8px;
+  color: #3f4065;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.pricing-item__price {
+  margin-top: 24px;
+  color: #000958;
+  font-family: Sora;
+  font-size: 3.4rem;
+  font-weight: 700;
+  line-height: 103.03%;
+}
+
+.pricing-item__btn {
+  margin-top: 22px;
+  color: #ff5b2e;
+  font-size: 1.6rem;
+  font-weight: 500;
+  line-height: 44px;
+  transition: background-color, color;
+  transition-duration: 0.4s;
+}
+
+.pricing-item__btn:hover {
+  background-color: #ff5b2e;
+  color: #fff;
+}
+
+.pricing-item__row {
+  display: flex;
+  gap: 12px;
+}
+
+.pricing-item__opt {
+  color: #656689;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 100%;
+}
+
+.pricing-item__row:first-of-type {
+  margin-top: 24px;
+}
+
+.pricing-item__row + .pricing-item__row {
+  margin-top: 18px;
+}
+
+/* Reviews */
+.reviews {
+  margin-top: 53px;
+  padding-top: 77px;
+}
+
+.reviews__top-row {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.reviews__btn {
+  color: #ff5b2e;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: none;
+  background-color: transparent;
+  padding: 0;
+  width: 54px;
+  height: 54px;
+  flex-shrink: 0;
+  border-radius: 50%;
+  border: 1.5px #ffd1c4 solid;
+  cursor: pointer;
+  transition: color, background-color, border-color;
+  transition-duration: 0.25s;
+}
+
+.reviews__btn:last-of-type {
+  rotate: 180deg;
+}
+
+.reviews__btn:hover {
+  color: #fff;
+  background-color: #ff5b2e;
+  border-color: #ff5b2e;
+}
+
+.reviews__content {
+  display: flex;
+  gap: 115px;
+}
+
+.reviews__img-wrap {
+  flex-shrink: 0;
+  position: relative;
+  width: 274px;
+  height: 350px;
+  border-radius: 137px;
+  background: #ffda54;
+}
+
+.reviews__img {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  border-radius: inherit;
+  object-fit: cover;
+}
+
+.reviews__heading {
+  margin-top: 36px;
+  color: #000958;
+  font-family: Sora;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 119.231%;
+}
+
+.reviews__quote-block {
+  max-width: 553px;
+}
+
+.reviews__quote {
+  margin-top: 24px;
+  color: #000;
+  font-size: 1.8rem;
+  font-weight: 400;
+  line-height: 155.556%;
+}
+
+.reviews__name {
+  margin-left: 29px;
+  position: relative;
+  margin-top: 34px;
+  color: #282828;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 100%;
+}
+
+.reviews__name::before {
+  position: absolute;
+  top: 50%;
+  left: -28px;
+  transform: translateY(-50%);
+  content: "";
+  display: inline-block;
+  border-radius: 1px;
+  width: 20px;
+  height: 2px;
+  background-color: #000;
+}
+
+.reviews__dots {
+  margin-top: 56px;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+}
+
+.reviews__dot:first-child {
+  width: 24px;
+  height: 8px;
+  border-radius: 4px;
+  background-color: #ff5b2e;
+}
+
+.reviews__dot + .reviews__dot {
+  width: 8px;
+  height: 8px;
+  border-radius: 4px;
+  border: 1px solid #ff5b2e;
 }
