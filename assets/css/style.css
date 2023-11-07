@@ -1115,3 +1115,269 @@ a {
   border-radius: 4px;
   border: 1px solid #ff5b2e;
 }
+
+/* Blog */
+.blog {
+  margin-top: 130px;
+}
+
+.blog__row-top {
+  display: flex;
+  gap: 512px;
+}
+
+.blog__heading {
+  margin-top: 39px;
+  min-width: 235px;
+  color: #000958;
+  font-family: Sora;
+  font-size: 5.2rem;
+  font-weight: 700;
+  line-height: 119.231%;
+}
+
+.blog__desc {
+  color: #656689;
+  font-size: 1.6rem;
+  font-weight: 400;
+  line-height: 187.5%;
+}
+
+.blog__cta {
+  max-width: 350px;
+}
+
+.blog__btn {
+  margin-top: 24px;
+  display: inline-block;
+  text-align: center;
+  min-width: 182px;
+  line-height: 56px;
+  border-radius: 31px;
+  border: 1px solid #ff5b2e;
+  color: #ff5b2e;
+  font-family: Poppins;
+  font-size: 1.6rem;
+  font-weight: 500;
+  transition: background-color, color;
+  transition-duration: 0.4s;
+}
+
+.blog__btn:hover {
+  color: rgb(255, 255, 255);
+  background-color: rgb(255, 91, 46);
+}
+
+.blog__list {
+  margin-top: 54px;
+  display: flex;
+  gap: 48px;
+}
+
+.blog-item {
+  flex: 1;
+}
+
+.blog-item__wrap-img {
+  position: relative;
+  height: 362px;
+  border-radius: 24px 24px 0 24px;
+  background: #90ccff;
+  padding: 24px 0 0 36px;
+}
+
+.blog-item:nth-child(2) .blog-item__wrap-img {
+  background-color: #ff997e;
+}
+
+.blog-item:last-child .blog-item__wrap-img {
+  background-color: #5bd6e2;
+}
+
+.blog-item__date {
+  display: inline-block;
+  color: #fff;
+  font-family: Sora;
+  font-size: 1.4rem;
+  font-weight: 400;
+}
+
+.blog-item__img {
+  position: absolute;
+  width: 322px;
+  height: 296px;
+  object-fit: cover;
+  bottom: 0;
+  right: 0;
+}
+
+.blog-item__content {
+  padding-top: 28px;
+  background-color: #fffaf5;
+}
+
+.blog-item__title a {
+  color: #000958;
+  font-family: Sora;
+  font-size: 2.2rem;
+  font-weight: 600;
+  line-height: 154.545%;
+}
+
+.blog-item__desc {
+  margin-top: 16px;
+  color: #656689;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 171.429%;
+}
+
+/* Footer*/
+.footer {
+  margin-top: 131px;
+  background: linear-gradient(to right, #fff6ed 43%, transparent 42%);
+}
+
+.footer .container {
+  display: flex;
+}
+
+.footer__content-left {
+  min-width: 41.03%;
+  padding-bottom: 148px;
+}
+
+.footer__content-right {
+  position: relative;
+  padding-left: 129px;
+}
+
+.footer__email {
+  padding-left: 22px;
+  padding-right: 50px;
+  width: 268px;
+  height: 46px;
+  border-radius: 23px;
+  border: 1px solid rgba(255, 91, 46, 0.25);
+  background-color: #fff;
+  outline: none;
+  color: #656689;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 116.667%;
+}
+
+.footer__email::placeholder {
+  color: #656689;
+  font-family: Poppins;
+  font-size: 1.2rem;
+  font-weight: 300;
+  line-height: 116.667%;
+}
+
+.footer__form {
+  margin-top: 35px;
+  position: relative;
+}
+
+.footer__btn {
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: #ff5b2e;
+  cursor: pointer;
+  bottom: 0;
+  right: 211px;
+}
+
+.footer__btn:hover {
+  opacity: 0.9;
+}
+
+.footer__contact-block {
+  display: grid;
+  grid-template-columns: 161px 226px;
+  column-gap: 137px;
+}
+
+.footer__title {
+  margin-top: 68px;
+  color: #000958;
+  font-family: Sora;
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 111.111%;
+}
+
+.footer__socials {
+  display: flex;
+  margin-top: 16px;
+  gap: 16px;
+}
+
+.footer__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: background-color 0.4s;
+}
+
+.footer__social:hover {
+  background-color: #9ec4e4;
+}
+
+.footer .logo {
+  margin-top: 114px;
+}
+
+.footer__explore .footer__title {
+  margin-top: 52px;
+}
+
+.footer__info .footer__title {
+  margin-top: 86px;
+}
+
+.footer__useful-links .footer__title {
+  margin-top: 52px;
+}
+
+.footer__item a {
+  color: #656689;
+  font-size: 1.4rem;
+  font-weight: 400;
+  line-height: 200%;
+}
+
+.footer__opening-time .footer__title {
+  margin-top: 58px;
+}
+
+.footer__list {
+  margin-top: 14px;
+}
+
+.footer__item:hover a {
+  text-decoration: underline;
+}
+
+.footer__copy-right {
+  position: absolute;
+  left: 22px;
+  bottom: 48px;
+  color: #656689;
+  font-size: 1.2rem;
+  font-weight: 400;
+  line-height: 116.667%;
+  opacity: 0.5;
+}
